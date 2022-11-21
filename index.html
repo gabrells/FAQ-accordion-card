@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/reset.css">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
@@ -14,27 +18,53 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+<body> 
+    <main>
+      <section class="bg-grupo">
+        <img src="./assets/bg-pattern-desktop.svg" class="img-bg">
+        <img src="./assets/illustration-box-desktop.svg" class="box">
+        <img src="./assets/illustration-woman-online-desktop.svg" class="womam">
+        
+      </section>
+     
+      <div class="faq">
+      <hi class="titulo">FAQ</hi>
+        <ul class="texto">
+          <li>How many team members can I invite?
+            <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</p>
+          </li>
+          <li>What is the maximum file upload size?
+            <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </li>
+          <li>How do I reset my password?
+            <p> Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</p>
+          </li>
+          <li>Can I cancel my subscription?
+            <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </li>
+          <li>Do you provide additional support?
+            <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </li>
+        </ul>
+      </div>
+    </main>
+    
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+  <footer>
+    <div class="footer">
+      <a href="https://github.com/gabrells" target="_blank"><i class="fa-brands fa-github" alt="perfil do GitHub"></i></a>
+      <a href="https://www.linkedin.com/in/gabriell-santos/" target="_blank"><i class="fa-brands fa-linkedin" alt="Perfil do Linkedin"></i></a>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/gabrells/FAQ-accordion-card" target="_blank">gabrells</a>.
+    </p>
+    <script src="https://kit.fontawesome.com/2a56b62252.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </footer>
 </body>
 </html>
