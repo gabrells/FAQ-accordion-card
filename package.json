@@ -1,0 +1,21 @@
+{
+  "name": "faq-accordion-card-main",
+  "version": "1.0.0",
+  "description": "yes",
+  "main": "main.js",
+  "scripts": {
+    "test": "yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "yes"
+  ],
+  "author": "gabriells",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

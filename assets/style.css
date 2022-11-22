@@ -58,6 +58,18 @@ body {
     box-shadow: 0 40px 35px -5px rgba(0, 0, 0, 0.25);
 }
 
+.box-desktop {
+    background-image: url(./illustration-box-desktop.svg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 93px;
+    top: 204px;
+    float: inline-end;
+}
+
 .womam-desktop {
     background-image: url(./illustration-woman-online-desktop.svg);
     width: 100%;
@@ -81,16 +93,7 @@ body {
     left: -90%;
 }
 
-.box-desktop {
-    background-image: url(./illustration-box-desktop.svg);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    right: 93px;
-    top: 204px;
-}
+
 
 
 /* footer */
