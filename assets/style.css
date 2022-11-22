@@ -38,9 +38,7 @@ body {
 } */
 
 
-.faq {
-    position: relative;
-}
+
 
 .titulo {
     font-size: 3rem;
@@ -63,11 +61,11 @@ body {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
+    /* background-size: contain; */
+    position: absolute;
     right: 93px;
     top: 204px;
-    float: inline-end;
+    /* float: inline-end; */
 }
 
 .womam-desktop {
@@ -93,6 +91,16 @@ body {
     left: -90%;
 }
 
+
+/* Corpo com texto */
+
+.faq {
+    width: 100%;
+    min-width: 360px;
+    max-width: 450px;
+    height: 100%;
+    padding: 4rem 5rem 4rem 4rem;
+}
 
 
 
