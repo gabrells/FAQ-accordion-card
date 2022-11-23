@@ -1,4 +1,4 @@
-const caixaTxt = document.querySelectorAll('.texto')
+const caixaTxt = document.querySelectorAll('.box-texto')
 const imgIcone = document.querySelectorAll('.setinha')
 const paragrafoTxt = document.querySelectorAll('.paragrafo')
 const tituloTxt = document.querySelectorAll('.questao')
