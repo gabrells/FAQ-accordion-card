@@ -1,21 +1,24 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
     min-height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(0deg, hsla(240, 73%, 65%, 1) 0%, hsla(257, 74%, 65%, 1) 50%, hsla(273, 75%, 66%, 1) 100%);
     background-attachment: fixed;
     
 }
 
 .layout {
-    margin: 5rem;
-    background-color: #fff;
+    width: 100%;
+    max-width: 1440px;
+    height: fit-content;
+    padding: 1rem;
     display: flex;
-    border-radius: 20px;
-
+    justify-content: center;
+    align-items: center;
 }
+
 .bg-grupo {
     position: relative;
     
@@ -100,9 +103,79 @@ body {
     max-width: 450px;
     height: 100%;
     padding: 4rem 5rem 4rem 4rem;
+    transition: all .4s ease-in-out;
 }
 
+.titulo {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
 
+.box-texto {
+    min-width: 295px;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.questao {
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.questao:hover {
+    color: hsl(14, 88%, 65%);
+}
+
+.titulo-dois {
+    font-weight: 700;
+}
+
+.paragrafo {
+    width: 312px;
+    display: none;
+    opacity: 0;
+    margin-top: .5rem;
+    font-weight: 700;
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+/* movimento para o click usando fadein */
+
+.mostrar-txt {
+    display: block;
+    opacity: 1;
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.setinha {
+    width: 12px;
+    height: 8px;
+    margin-right: 12px;
+}
+
+.rotacao {
+    transform: rotate(180deg);
+    transition: all .18s ease-in-out;
+}
+
+.espace {
+    width: 100%;
+    margin: 1rem 0 .9rem 0;
+    border: 1px solid hsl(240, 5%, 93%);
+}
 
 /* footer */
 
