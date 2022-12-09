@@ -32,24 +32,6 @@ body {
 }
 
 
-/* .img-bg {
-    width: 300px;
-    position: relative;
-}
-.box {
-    float: left;
-    position: absolute; left: -130px; top: 20%;
-
-}
-.womam {
-    width: 300px;
-    float: left;
-    position: absolute; left: -30px; bottom: 15%;
-} */
-
-
-
-
 .titulo {
     font-size: 3rem;
 }
@@ -136,7 +118,6 @@ body {
     display: none;
     opacity: 0;
     margin-top: .5rem;
-    font-weight: 700;
     font-size: .8rem;
     line-height: 1rem;
 }
